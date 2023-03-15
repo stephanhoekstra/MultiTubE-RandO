@@ -41,17 +41,26 @@ You're going to need
    1. Select custom OS -> video looper img file. Make sure you install the sd card from the img file, not from the zip file (in other words - do not forget to unzip)
    2. Select the SD card
    3. Click Write, wait untill finished.
+7. Configure the player
+   1. Open the video_looper.ini file in the root folder of the sd card. change the following settings:
+      1. wait_time = 5
+      2. set bgimage = /boot/testbeeld.png
+      3. is_random = true
+      4. duration = 300
+   2. save the file.
+   3. copy the file testbeeld.png to the root folder of the sd card.
 
-7. Insert the micro SD card in the pi
-8. Connect all hardware to the pi - HDMI, micro USB power
-9. Do a testrun. Bootup sequence can take a while, and it will prompt you to set up stuff like a network connection. just ignore it and wait.
-10. Success!
-11. Disconnect all the hardware and put the pi back in it's case (close it back up with the screws).
+8. Insert the micro SD card in the pi
+9.  Connect all hardware to the pi - HDMI, micro USB power
+10. Do a testrun. Bootup sequence can take a while, and it will prompt you to set up stuff like a network connection. just ignore it and wait.
+11. Success!
+12. Disconnect all the hardware and put the pi back in it's case (close it back up with the screws).
 
 ## Troubleshooting
 
 Some stuff I tried when it did not work
   
+- if a usb stick doesnt work, try the other USB port
 - some larger USB drives do not work. Try another USB stick.
   
 ## Read more
