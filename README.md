@@ -36,13 +36,15 @@ You're going to need
    2. Remove the micro sd card
 
 4. Insert the mircro sd card into your sd card adatper/read and access it from the computer.
-5. Start the Raspberry pi imager application
-6. Install the image on the card
+5. Make sure the sd card has been formatted (new cards only)
+6. Start the Raspberry pi imager application
+7. Install the image on the card
    1. Select custom OS -> video looper img file. Make sure you install the sd card from the img file, not from the zip file (in other words - do not forget to unzip)
    2. Select the SD card
    3. Click Write, wait untill finished.
-7. Configure the player
-   1. Open the video_looper.ini file in the root folder of the sd card. change the following settings:
+8. Configure the player
+   1. Overwrite the video_looper on the root folder of the SD card, OR  
+   Open the video_looper.ini file in the root folder of the sd card. change the following settings:
       1. wait_time = 5
       2. set bgimage = /boot/testbeeld.png
       3. is_random = true
@@ -50,11 +52,11 @@ You're going to need
    2. save the file.
    3. copy the file testbeeld.png to the root folder of the sd card.
 
-8. Insert the micro SD card in the pi
-9.  Connect all hardware to the pi - HDMI, micro USB power
-10. Do a testrun. Bootup sequence can take a while, and it will prompt you to set up stuff like a network connection. just ignore it and wait.
-11. Success!
-12. Disconnect all the hardware and put the pi back in it's case (close it back up with the screws).
+9. Insert the micro SD card in the pi
+10. Connect all hardware to the pi - HDMI, micro USB power
+11. Do a testrun. Bootup sequence can take a while, and it will prompt you to set up stuff like a network connection. just ignore it and wait.
+12. Success!
+13. Disconnect all the hardware and put the pi back in it's case (close it back up with the screws).
 
 ## Troubleshooting
 
