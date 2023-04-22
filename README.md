@@ -13,9 +13,9 @@ We're going to set up a Raspberry pi 1 for the purpose of the MultiTubE-RandO ap
 You're going to need
 
 - a raspberry pi 1
-- a microSD to SD card adapter Or and an SD car reader
+- a microSD to SD card adapter Or and an SD card reader
 - a computer
-- a HDMI cable connected to a monitor
+- a component cable connected to a monitor
 - a microUSB cord and power source
 - small phillips head screwdriver
   
@@ -30,7 +30,7 @@ You're going to need
    1. Open up the case with the screwdriver.
    2. Remove the micro sd card
 
-4. Insert the mircro sd card into your sd card adatper/read and access it from the computer.
+4. Insert the mircro sd card into your sd card adapter/read and access it from the computer.
 5. Make sure the sd card has been formatted (new cards only)
 6. Start the Raspberry pi imager application
 7. Install the image on the card
