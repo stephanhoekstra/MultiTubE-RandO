@@ -18,12 +18,7 @@ You're going to need
 - a HDMI cable connected to a monitor
 - a microUSB cord and power source
 - small phillips head screwdriver
-- a USB stick
   
-## USB Creation steps
-
-1. format the usb stick - FAT32, ExFAT or NTFS
-2. copy your videos into the root folder of the usb drive. the videos must be .mp4, h.264 codec, resolution of 1080p or lower. 
 
 
 ## Pi Creation Steps
@@ -60,13 +55,11 @@ You're going to need
 12. Success!
 13. Disconnect all the hardware and put the pi back in it's case (close it back up with the screws).
 
-## Troubleshooting
 
-Some stuff I tried when it did not work
-  
-- if a usb stick doesnt work, try the other USB port
-- some larger USB drives do not work. Try another USB stick.
-  
+## Video Creation
+
+1. copy your videos into the /root/video folder of the sd card drive. the videos must be .mp4, h.264 codec, resolution of 1080p or lower. 
+
 ## Read more
 
 <https://videolooper.de/>
