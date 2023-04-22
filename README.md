@@ -49,10 +49,12 @@ You're going to need
       2. set bgimage = /boot/testbeeld.png
       3. is_random = true
       4. duration = 300
+      5. path = /boot/video
+      6. file_reader = directory
    2. save the file.
    3. copy the file testbeeld.png to the root folder of the sd card.
 
-9. Insert the micro SD card in the pi
+9. Insert the micro SD card in the pi with an adapters
 10. Connect all hardware to the pi - HDMI, micro USB power
 11. Do a testrun. Bootup sequence can take a while, and it will prompt you to set up stuff like a network connection. just ignore it and wait.
 12. Success!
